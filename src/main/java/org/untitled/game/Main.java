@@ -11,6 +11,14 @@ public class Main {
         window.setResizable(false);
         window.setTitle("Vitas");
 
+        // Adding game panel to the application
+        GamePanel gamePanel = new GamePanel();
+        window.add(gamePanel);
+        window.pack();
+
+        window.setLocationRelativeTo(null);
+        window.setVisible(true);
+
 
 
     }

@@ -39,7 +39,16 @@ public class KeyHandler implements KeyListener  {
         int keyCode = e.getKeyCode();
 
         if (keyCode == KeyEvent.VK_UP) {
-            upPressed = false;
+            upPressed = true;
+        }
+        if (keyCode == KeyEvent.VK_DOWN) {
+            downPressed = false;
+        }
+        if (keyCode == KeyEvent.VK_LEFT) {
+            leftPressed = false;
+        }
+        if (keyCode == KeyEvent.VK_RIGHT) {
+            rightPressed = false;
         }
 
     }
